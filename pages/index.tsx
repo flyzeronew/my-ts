@@ -4,10 +4,10 @@ import { Console } from "console";
 
 const inter = Inter({ subsets: ["latin"] });
 
-type props {
+interface props {
   [key: string]: any;
 }
-type MenuItem {
+interface MenuItem {
   id : number,
   title: string
 }
