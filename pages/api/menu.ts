@@ -7,7 +7,7 @@ export default function handler(
     res: NextApiResponse<Data>,
 ) {
     const appUrl = process.env.APP_URL;
-    const data = [ 
+    const data : any = [ 
             {
                 'id':1,
                 'title':'未來焦點',
