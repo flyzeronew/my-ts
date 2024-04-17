@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-const aa : string =111;
+const aa : number =121;
 
 export default function Home() {
   return (
