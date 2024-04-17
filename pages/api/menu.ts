@@ -1,4 +1,9 @@
-export default function handler(req, res) {
+import type { NextApiRequest, NextApiResponse } from "next";
+
+export default function handler(  
+    req: NextApiRequest,
+    res: NextApiResponse<Data>,
+) {
     const appUrl = process.env.APP_URL;
     const data = [ 
             {
