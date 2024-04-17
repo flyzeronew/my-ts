@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 interface props {
   [key: string]: any;
 }
-interface MenuItem {
+type MenuItem {
   id : number,
   title: string
 }
